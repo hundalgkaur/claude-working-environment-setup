@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "crossplatform-app-starter",
+    "slug": "crossplatform-app-starter",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.crossplatform.appstarter"
+    },
+    "android": {
+      "package": "com.crossplatform.appstarter",
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    }
+  }
+}

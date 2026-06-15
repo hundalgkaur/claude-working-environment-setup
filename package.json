@@ -1,0 +1,16 @@
+{
+  "name": "crossplatform-app-starter",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "expo start",
+    "ios": "expo run:ios",
+    "android": "expo run:android",
+    "web": "next dev",
+    "test": "node --test",
+    "lint": "echo \"(add a linter)\"",
+    "typecheck": "echo \"(add tsc)\"",
+    "build": "echo \"(add a build)\""
+  }
+}

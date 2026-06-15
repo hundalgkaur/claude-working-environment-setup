@@ -1,0 +1,28 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-filesystem"
+      ],
+      "transport": "stdio"
+    },
+    "git": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-git"
+      ],
+      "transport": "stdio"
+    },
+    "github": {
+      "url": "${GITHUB_MCP_URL}",
+      "transport": "http",
+      "note": "authenticate at provision time"
+    },
+    "postgres": {
+      "url": "${POSTGRES_MCP_URL}",
+      "transport": "http",
+      "note": "authenticate at provision time"
+    }
+  }
+}
